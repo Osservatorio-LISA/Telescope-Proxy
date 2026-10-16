@@ -1,0 +1,126 @@
+(footprint "ScrewTerminal2Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.42 -5.48 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4d51887-b76a-462d-a171-1865ec60598f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ScrewTerminal-KF301-2P"
+		(at -0.08 7.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aee320fe-0e32-4b2a-9279-a25ba7632535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41978cfa-3412-445a-a57d-9567fcaa883d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80eba5f3-c4b8-4be0-98cf-f2a9e7f49fa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -2.2)
+		(end 5 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d15ef642-a2bf-4e9c-b1e4-96065a424507")
+	)
+	(fp_line
+		(start 0 -3.8)
+		(end 0 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d51db3a7-3ae2-42ba-8e48-f497a7ff3632")
+	)
+	(fp_rect
+		(start -5 -3.8)
+		(end 5 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0f183a2f-9552-44ba-bfe6-cf2630dd51b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.08 8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfc8361a-b812-4281-8505-a3b1de8592b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3816b349-1e82-40cb-8ca2-09af20961099")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baf79464-9855-4ff6-ba4b-da61d71fb870")
+	)
+	(embedded_fonts no)
+	(model "C:/Didat/Home/Embedded/KiCad_Models/KF301-5.0-2P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
